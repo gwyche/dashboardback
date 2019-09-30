@@ -13,7 +13,7 @@ public class Product {
     private int id;
 
     @Column(name="productname")
-    private String product_name;
+    private String productName;
 
 
     @Column(name="category")
@@ -35,9 +35,9 @@ public class Product {
     public Product() {
     }
 
-    public Product(int id, String product_name, String category, double fullPrice, double salePrice, boolean availability, String supplier) {
+    public Product(int id, String productName, String category, double fullPrice, double salePrice, boolean availability, String supplier) {
         this.id = id;
-        this.product_name = product_name;
+        this.productName = productName;
         this.category = category;
         this.fullPrice = fullPrice;
         this.salePrice = salePrice;
@@ -53,12 +53,12 @@ public class Product {
         this.id = id;
     }
 
-    public String getProduct_name() {
-        return product_name;
+    public String getProductName() {
+        return productName;
     }
 
-    public void setProduct_name(String product_name) {
-        this.product_name = product_name;
+    public void setProductName(String productName) {
+        this.productName = productName;
     }
 
     public String getCategory() {
