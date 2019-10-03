@@ -1,6 +1,6 @@
 package com.tts.ttsdashboardproject.entities;
 
-import com.sun.javafx.beans.IDProperty;
+
 
 import javax.persistence.*;
 
